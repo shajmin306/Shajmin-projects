@@ -57,6 +57,10 @@ navbar {
   color: white;
 }
 
+.primary-link :hover {
+  color: white;
+}
+
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -96,7 +100,7 @@ img {
   max-width: 100%;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 576px) {
   h1 {
     font-size: 48px;
     text-align: center;
@@ -108,6 +112,11 @@ img {
   }
 
   p {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
     text-align: center;
   }
 }
