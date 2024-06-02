@@ -18,6 +18,13 @@ h1 {
   font-size: 96px;
 }
 
+@media (max-width: 450px) {
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
 h2 {
   font-size: 48px;
   margin-bottom: 30px;
