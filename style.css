@@ -18,20 +18,6 @@ h1 {
   font-size: 96px;
 }
 
-@media (max-width: 450px) {
-  h1 {
-    font-size: 48px;
-    text-align: center;
-  }
-}
-
-@media (max-width: 450px) {
-  h2,
-  p {
-    text-align: center;
-  }
-}
-
 h2 {
   font-size: 48px;
   margin-bottom: 30px;
@@ -71,11 +57,6 @@ navbar {
   color: white;
 }
 
-@media (max-width: 450px) {
-  .primary-link {
-    text-align: center;
-  }
-}
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -113,4 +94,20 @@ navbar {
 
 img {
   max-width: 100%;
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
 }
