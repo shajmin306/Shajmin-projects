@@ -20,7 +20,7 @@ h1 {
 
 @media (max-width: 450px) {
   h1 {
-    font-size: 60px;
+    font-size: 48px;
     text-align: center;
   }
 }
