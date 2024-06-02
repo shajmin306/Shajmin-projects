@@ -20,7 +20,14 @@ h1 {
 
 @media (max-width: 450px) {
   h1 {
-    font-size: 20px;
+    font-size: 60px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  h2,
+  p {
     text-align: center;
   }
 }
@@ -64,6 +71,11 @@ navbar {
   color: white;
 }
 
+@media (max-width: 450px) {
+  .primary-link {
+    text-align: center;
+  }
+}
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
